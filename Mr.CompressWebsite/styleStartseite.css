@@ -1,0 +1,144 @@
+h1 {
+    position: fixed;
+    top: 0%;
+    transform: translateY(-50());
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgba(234, 125, 46, 1);
+    text-align: left;
+}
+
+.rectangleStartseite {
+    width: 85%;
+    height: 85%;
+    background-color: rgba(240, 192, 135, 1);
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    z-index: -1;
+    /* positions the element behind the othr elements */
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+
+}
+
+button#generalInfosBtn {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 340px;
+    height: 220px;
+    background-image: url('Pictures/Mr_ Compress icon.jpg');
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+    font-size: 40px;
+    border: none;
+    text-shadow: 3px 1px 1px #524900;
+}
+
+button#generalInfosBtn:hover {
+    border: 2px solid yellow;
+    color: rgb(214, 214, 0);
+    font-size: 40px;
+    text-shadow: 3px 1px 1px #524900;
+}
+
+button#generalInfosBtn:active {
+    border: 2px solid white;
+    color: rgb(252, 252, 67);
+    font-size: 40px;
+}
+
+button#quirkSiteBtn {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 340px;
+    height: 220px;
+    background-image: url('Pictures/•\ 𝕄𝕣\ ℂ𝕠𝕞𝕡𝕣𝕖𝕤𝕤\ 𝕩\ ℝ𝕖𝕒𝕕𝕖𝕣\ •\ -\ Get\ Some\ Rest\,\ Yeah\ .jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgba(45, 160, 35, 1);
+    font-size: 40px;
+    border: none;
+    text-shadow: 3px 1px 1px #02380b;
+}
+
+button#quirkSiteBtn:hover {
+    border: 2px solid green;
+    color: rgb(40, 139, 31);
+    font-size: 40px;
+    text-shadow: 3px 1px 1px #02380b;
+}
+
+button#quirkSiteBtn:active {
+    border: 2px solid white;
+    color: rgb(56, 182, 45);
+    font-size: 40px;
+}
+
+button#pictureBtn {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 340px;
+    height: 220px;
+    background-image: url('Pictures/8d9dbbb191e10050b59fc6ecafbca0e2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgba(25, 55, 214, 1);
+    font-size: 42px;
+    border: none;
+    text-shadow: 3px 1px 1px rgb(7, 24, 107);
+}
+
+button#pictureBtn:hover {
+    border: 2px solid darkblue;
+    color: rgb(16, 46, 199);
+    font-size: 42px;
+    text-shadow: 3px 1px 1px rgb(7, 24, 107);
+}
+
+
+button#pictureBtn:active {
+    border: 2px solid white;
+    color: rgb(48, 78, 230);
+    font-size: 42px;
+}
+
+button#linkSiteBtn {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    width: 340px;
+    height: 220px;
+    background-image: url('Pictures/Mr_\ Compress.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgba(187, 26, 26, 1);
+    font-size: 40px;
+    border: none;
+    text-shadow: 3px 1px 1px rgb(107, 10, 10);
+}
+
+button#linkSiteBtn:hover {
+    border: 2px solid darkred;
+    color: rgb(172, 21, 21);
+    font-size: 40px;
+    text-shadow: 3px 1px 1px rgb(107, 10, 10);
+}
+
+button#linkSiteBtn:active {
+    border: 2px solid white;
+    color: rgb(209, 39, 39);
+    font-size: 40px;
+}

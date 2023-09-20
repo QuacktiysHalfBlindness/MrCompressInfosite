@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mr.Compress Infosite</title>
+    <link rel="stylesheet" href="styleStartseite.css">
+
+</head>
+
+<body>
+    <h1> ⁂※Mr.Compress - Atsuhiro Sako※⁂</h1>
+
+    <div class="rectangleStartseite"></div>
+
+    <button id="generalInfosBtn" onclick="redirectToGeneralInfos()"> General Infos </button>
+    <button id="quirkSiteBtn" onclick="redirectToQuirkExplanation()"> Quirk Explanation </button>
+    <button id="pictureBtn" onclick="redirectToPictureSite()"> Pictures / Fanart </button>
+    <button id="linkSiteBtn" onclick="redirectToLinkSite"> Links </button>
+
+
+    <script class="toGeneralInfosSite"> // javascript code 
+        document.getElementById("generalInfosBtn").addEventListener("click", function () {
+            window.location.replace("generalInfos.html");
+        }); // ändert den pfad ,sodass man sobald man auf den general infos knopf drückt zu der general infos seite geleitet wird
+    </script>
+
+    <script class="toQuirkSite">
+        document.getElementById("quirkSiteBtn").addEventListener("click", function () {
+            window.location.replace("quirkSite.html");
+        });// ändert den pfad ,sodass man sobald man auf den quirk explanation knopf drückt zu der quirk explanation seite geleitet wird
+    </script>
+
+    <script class="toPicturesSite">
+        document.getElementById("pictureBtn").addEventListener("click", function () {
+            window.location.replace("picturesSite.html");
+        }); 
+    </script>
+
+    <script class="toLinkSite">
+        document.getElementById("linkSiteBtn").addEventListener("click", function () {
+            window.location.replace("linkSite.html");
+        });
+    </script>
+</body>

@@ -1,0 +1,90 @@
+h1 {
+    position: fixed;
+    top: 0%;
+    transform: translateY(-50());
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+h3 {
+    position: fixed;
+    top: 6%;
+    transform: translateY(-10());
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgba(73, 134, 64, 1);
+    text-align: left;
+}
+
+.rectangleQuirkExplanation {
+    width: 90%;
+    height: 85%;
+    background-color: rgba(121, 168, 113, 1);
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    z-index: -1;
+    /* positions the element behind the other elements */
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.text1 {
+    position: fixed;
+    top: 10%;
+    left: 12%;
+}
+
+.text2 {
+    position: fixed;
+    top: 26%;
+    left: 12%;
+}
+
+.text3 {
+    position: fixed;
+    top: 55%;
+    left: 12%;
+}
+
+button#fromQuirkToStartseiteBtn {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 110px;
+    height: 60px;
+    background-image: url('Pictures/EvlD19WUcAEpCGK.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(68, 235, 90);
+    font-size: 18px;
+    border: none;
+    text-shadow: 3px 1px 1px rgb(32, 133, 45);
+    border-radius: 10px;
+}
+button#fromQuirkToStartseiteBtn:hover {
+    border: 2px solid rgb(8, 110, 8);
+    color: rgb(68, 235, 90);
+    font-size: 18px;
+    text-shadow: 3px 1px 1px #524900;
+}
+
+button#fromQuirkToStartseiteBtn:active {
+    border: 2px solid rgb(39, 182, 39);
+    color: rgb(68, 235, 90);
+    font-size: 18px;
+}
+
+.picture1 {
+    position: fixed;
+    top: 25%;
+    left: 70%;
+    border-radius: 3px;
+    border-width: 3px;
+}

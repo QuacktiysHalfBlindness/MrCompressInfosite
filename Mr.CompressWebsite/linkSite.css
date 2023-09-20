@@ -1,0 +1,181 @@
+h1 {
+    position: fixed;
+    top: 0%;
+    transform: translateY(-50());
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+h3 {
+    position: fixed;
+    top: 6%;
+    transform: translateY(-10());
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgba(182, 47, 47, 1);
+    text-align: left;
+}
+
+.rectangleLinkSeite {
+    width: 90%;
+    height: 85%;
+    background-color: rgba(218, 114, 114, 1);
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    z-index: -1;
+    /* positions the element behind the other elements */
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+button#fromLinksToStartseiteBtn {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 110px;
+    height: 60px;
+    background-image: url('Pictures/actor-mr-compress-406284_large.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(230, 74, 74);
+    font-size: 18px;
+    border: none;
+    text-shadow: 3px 1px 1px rgb(102, 14, 14);
+    border-radius: 10px;
+}
+
+button#fromLinksToStartseiteBtn:hover {
+    border: 2px solid rgb(129, 21, 21);
+    color: rgb(230, 74, 74);
+    font-size: 18px;
+    text-shadow: 3px 1px 1px rgb(102, 14, 14);
+}
+
+button#fromLinksToStartseiteBtn:active {
+    border: 2px solid rgb(245, 141, 141);
+    color: rgb(230, 74, 74);
+    font-size: 18px;
+}
+
+.link1 {
+    position: fixed;
+    top: 20%;
+    left: 15%;
+    font-size: 25px;
+    color: rgb(102, 14, 14);
+}
+
+.link2 {
+    position: fixed;
+    top: 20%;
+    left: 65%;
+    font-size: 25px;
+    color: rgb(102, 14, 14);
+}
+
+.link3 {
+    position: fixed;
+    top: 45%;
+    left: 15%;
+    font-size: 25px;
+    color: rgb(102, 14, 14);
+}
+
+.link4 {
+    position: fixed;
+    top: 45%;
+    left: 65%;
+    font-size: 25px;
+    color: rgb(102, 14, 14);
+}
+
+.link5 {
+    position: fixed;
+    top: 70%;
+    left: 15%;
+    font-size: 25px;
+    color: rgb(102, 14, 14);
+}
+
+.link6 {
+    position: fixed;
+    top: 70%;
+    left: 65%;
+    font-size: 25px;
+    color: rgb(102, 14, 14);
+}
+
+.link1:hover {
+    font-size: 25px;
+    color:rgb(78, 9, 9) ;
+}
+
+.link1:active {
+    font-size: 25px;
+    color: rgb(167, 50, 50);
+}
+
+.link2:hover {
+    font-size: 25px;
+    color: rgb(78, 9, 9);
+}
+
+.link2:active {
+    font-size: 25px;
+    color: rgb(167, 50, 50);
+}
+
+.link3:hover {
+    font-size: 25px;
+    color: rgb(78, 9, 9);
+}
+
+.link3:active {
+    font-size: 25px;
+    color: rgb(167, 50, 50);
+}
+
+.link4:hover {
+    font-size: 25px;
+    color: rgb(78, 9, 9);
+}
+
+.link4:active {
+    font-size: 25px;
+    color: rgb(167, 50, 50);
+}
+
+.link5:hover {
+    font-size: 25px;
+    color: rgb(78, 9, 9);
+}
+
+.link5:active {
+    font-size: 25px;
+    color: rgb(167, 50, 50);
+}
+
+.link6:hover {
+    font-size: 25px;
+    color: rgb(78, 9, 9);
+}
+
+.link6:active {
+    font-size: 25px;
+    color: rgb(167, 50, 50);
+}
+
+.picture1 {
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    border-radius: 5px;
+    border-width: 3px;
+}
